@@ -98,7 +98,11 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./holoviz.html"> 
-<span class="menu-text">Panel in Quarto Examples</span></a>
+<span class="menu-text">basic app</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./holoviz2.html"> 
+<span class="menu-text">app</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -233,7 +237,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/petoulemonde\.github\.io\/catalogue_sandbox_quarto\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
