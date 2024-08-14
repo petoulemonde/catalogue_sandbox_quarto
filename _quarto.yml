@@ -8,7 +8,11 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-      - holoviz.qmd
+      - href: holoviz.qmd
+        text: basic app
+      - href: holoviz2.qmd
+        text: app
+
 
 format:
   html:
